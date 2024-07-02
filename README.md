@@ -79,7 +79,7 @@ facilitating easy and temporary data exchange.
 
 ## Contributors
 
-- Your Name <shubhamchikhalkar25@gmail.com>
+- <shubhamchikhalkar25@gmail.com>
 
 ## Acknowledgments
 
