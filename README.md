@@ -79,11 +79,7 @@ facilitating easy and temporary data exchange.
 
 ## Contributors
 
-- Your Name <your.email@example.com>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Your Name <shubhamchikhalkar25@gmail.com>
 
 ## Acknowledgments
 
@@ -92,4 +88,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to customize this README based on your specific application features, technology stack, and any additional details you find relevant. This template provides a structured approach to introducing your application and guiding users on how to set up and utilize it effectively.
+Feel free to customize this README based on your specific application features,
+technology stack, and any additional details you find relevant. 
+This template provides a structured approach to introducing your application and guiding users 
+on how to set up and utilize it effectively.
