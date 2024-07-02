@@ -2,6 +2,7 @@ package com.byteclub.Shawhere.controller;
 
 import com.byteclub.Shawhere.service.FileAccessService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -17,6 +18,7 @@ import java.util.List;
 public class FileAccessController {
 
     @Autowired
+    @Qualifier("s3")
     private FileAccessService fileAccessService;
 
     @PostMapping("/upload")

@@ -1,5 +1,6 @@
 package com.byteclub.Shawhere.service;
 
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import software.amazon.awssdk.auth.credentials.EnvironmentVariableCredentialsProvider;
 import software.amazon.awssdk.core.ResponseBytes;
@@ -12,11 +13,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service("s3")
 public class S3FileAccessImpl implements FileAccessService {
     private final S3Client s3Client;
     public S3FileAccessImpl() {
         this.s3Client = S3Client.builder()
-                .region(Region.US_EAST_1)
+                .region(Region.AP_SOUTHEAST_2)
                 .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
                 .build();
     }
